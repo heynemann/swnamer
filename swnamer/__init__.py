@@ -9,3 +9,4 @@
 # Copyright (c) 2014 Bernardo Heynemann heynemann@gmail.com
 
 from swnamer.version import __version__
+from swnamer.generator import NameGenerator

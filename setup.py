@@ -58,8 +58,7 @@ swnamer is a name generator that uses Star Wars characters, species and planets 
     },
     entry_points={
         'console_scripts': [
-            # add cli scripts here in this form:
-            # 'swnamer=swnamer.cli:main',
+            'swnamer=swnamer.generator:main',
         ],
     },
 )
