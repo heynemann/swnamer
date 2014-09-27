@@ -37,6 +37,15 @@ Using in your python code is very simple:
         generator = NameGenerator(lowercase=True, separator="_")
         return generator.generate()
 
+These are all the available flags (and their defaults):
+
+    use_characters=True
+    use_species=True
+    use_planets=True
+    separator='-'
+    lowercase=False
+    seed=None
+
 This would return something like "nar-shaddaa-gamorrean-general-grievous".
 
 Contributing
