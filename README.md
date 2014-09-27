@@ -37,6 +37,8 @@ Using in your python code is very simple:
         generator = NameGenerator(lowercase=True, separator="_")
         return generator.generate()
 
+This would return something like "nar-shaddaa-gamorrean-general-grievous".
+
 These are all the available flags (and their defaults):
 
     use_characters=True
@@ -45,8 +47,6 @@ These are all the available flags (and their defaults):
     separator='-'
     lowercase=False
     seed=None
-
-This would return something like "nar-shaddaa-gamorrean-general-grievous".
 
 Contributing
 ------------
